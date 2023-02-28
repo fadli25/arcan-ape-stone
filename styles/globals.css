@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(../public/SACBackground.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fontboh {
+  font-family: fontboh;
+}
+@font-face {
+  font-family: fontboh;
+  src: url(./Bohemian.ttf);
+}
+.img {
+  box-shadow: 0px 1px 39px 11px rgba(0, 0, 0, 0.63);
+  -webkit-box-shadow: 0px 1px 39px 11px rgba(0, 0, 0, 0.63);
+  -moz-box-shadow: 0px 1px 39px 11px rgba(0, 0, 0, 0.63);
+}
